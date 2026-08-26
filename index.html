@@ -3,14 +3,21 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Prasanna Sundaram — Java / Spring Boot Engineer</title>
+
 <meta name="description" content="Prasanna Sundaram — Senior Java &amp; Spring Boot engineer specializing in systems integration and production reliability. 12+ years across banking, telecom, stock market and insurance platforms.">
+
 <link rel="icon" href="data:,">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
 <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <div class="grain" aria-hidden="true"></div>
@@ -18,10 +25,12 @@
 <!-- ============ TOP STATUS BAR ============ -->
 <header class="statusbar">
   <div class="statusbar__inner">
+
     <div class="statusbar__id">
       <span class="dot dot--live" aria-hidden="true"></span>
       <span class="mono">PRASANNA_SUNDARAM.SYS</span>
     </div>
+
     <nav class="statusbar__nav" aria-label="Primary">
       <a href="#map">career</a>
       <a href="#stack">stack</a>
@@ -29,23 +38,34 @@
       <a href="#certs">certifications</a>
       <a href="#contact">contact</a>
     </nav>
-    <a class="statusbar__resume mono" href="assets/Prasanna_Sundaram_Resume.pdf" download>↓ resume.pdf</a>
+
+    <a class="statusbar__resume mono"
+       href="Prasanna_Sundaram_Resume.pdf"
+       download>
+      ↓ resume.pdf
+    </a>
+
   </div>
 </header>
+
 
 <main>
 
   <!-- ============ HERO ============ -->
   <section class="hero" id="top">
+
     <div class="hero__grid">
 
       <div class="hero__intro">
+
         <p class="eyebrow mono">// senior software engineer</p>
+
         <h1 class="hero__title">
           Building the layer<br>
           <span class="hero__title-accent">between systems</span><br>
           that isn't allowed to fail.
         </h1>
+
         <p class="hero__lede">
           I'm <strong>Prasanna Sundaram</strong> — a Java &amp; Spring Boot engineer
           based in Chennai. For 12 years I've sat at the join points of large
@@ -53,370 +73,930 @@
           where one system's output has to become another system's input, correctly,
           every time.
         </p>
+
         <div class="hero__cta">
-          <a class="btn btn--primary" href="#map">View career map ↓</a>
-          <a class="btn btn--ghost" href="https://github.com/prsundaram" target="_blank" rel="noopener">GitHub ↗</a>
+          <a class="btn btn--primary" href="#map">
+            View career map ↓
+          </a>
+
+          <a class="btn btn--ghost"
+             href="https://github.com/prsundaram"
+             target="_blank"
+             rel="noopener">
+            GitHub ↗
+          </a>
         </div>
+
       </div>
 
+
       <div class="hero__card">
+
         <div class="idcard">
+
           <div class="idcard__head mono">
             <span>PROFILE</span>
             <span class="dot dot--live" aria-hidden="true"></span>
           </div>
+
           <div class="idcard__photo">
-            <img src="assets/prasanna.png" alt="Portrait of Prasanna Sundaram">
+            <img
+              src="prasanna.png"
+              alt="Portrait of Prasanna Sundaram"
+            >
           </div>
+
           <div class="idcard__body">
-            <p class="idcard__name">Prasanna Sundaram</p>
-            <p class="idcard__role mono">Senior Consultant · Infosys</p>
+
+            <p class="idcard__name">
+              Prasanna Sundaram
+            </p>
+
+            <p class="idcard__role mono">
+              Senior Consultant · Infosys
+            </p>
+
             <ul class="idcard__meta mono">
-              <li><span>base</span><span>Chennai, IN</span></li>
-              <li><span>exp</span><span id="uptime">12y 1m</span></li>
-              <li><span>focus</span><span>Java · Spring Boot</span></li>
-              <li><span>status</span><span class="status-ok">available</span></li>
+              <li>
+                <span>base</span>
+                <span>Chennai, IN</span>
+              </li>
+
+              <li>
+                <span>exp</span>
+                <span id="uptime">12y 1m</span>
+              </li>
+
+              <li>
+                <span>focus</span>
+                <span>Java · Spring Boot</span>
+              </li>
+
+              <li>
+                <span>status</span>
+                <span class="status-ok">available</span>
+              </li>
             </ul>
+
           </div>
+
         </div>
+
       </div>
 
     </div>
 
+
     <div class="metrics mono" aria-label="Career metrics">
+
       <div class="metrics__item">
         <span class="metrics__num">12+</span>
         <span class="metrics__label">years in production</span>
       </div>
+
       <div class="metrics__item">
         <span class="metrics__num">5</span>
         <span class="metrics__label">platforms integrated</span>
       </div>
+
       <div class="metrics__item">
         <span class="metrics__num">11</span>
         <span class="metrics__label">largest team led</span>
       </div>
+
       <div class="metrics__item">
         <span class="metrics__num">24×7</span>
         <span class="metrics__label">coverage delivered</span>
       </div>
+
     </div>
+
   </section>
 
-  <!-- ============ CAREER MAP (signature element) ============ -->
+
+  <!-- ============ CAREER MAP ============ -->
   <section class="section" id="map">
+
     <div class="section__head">
+
       <p class="eyebrow mono">// 01 — career topology</p>
+
       <h2>Five systems, one route through them</h2>
-      <p class="section__sub">Every role sat at an integration point — a place where two systems had to agree on a format. Select a node to open its trace.</p>
+
+      <p class="section__sub">
+        Every role sat at an integration point — a place where two systems
+        had to agree on a format. Select a node to open its trace.
+      </p>
+
     </div>
 
+
     <div class="topology" id="topology" role="list">
-      <svg class="topology__line" viewBox="0 0 1000 40" preserveAspectRatio="none" aria-hidden="true">
+
+      <svg
+        class="topology__line"
+        viewBox="0 0 1000 40"
+        preserveAspectRatio="none"
+        aria-hidden="true"
+      >
         <path d="M 40 20 L 960 20" />
       </svg>
 
-      <!-- nodes injected / enhanced by JS, static fallback below -->
-      <button class="node" role="listitem" data-index="0" aria-expanded="false" aria-controls="trace-0">
+
+      <button
+        class="node"
+        role="listitem"
+        data-index="0"
+        aria-expanded="false"
+        aria-controls="trace-0"
+      >
         <span class="node__dot"></span>
         <span class="node__year mono">2013</span>
         <span class="node__org">Aosta Software</span>
       </button>
-      <button class="node" role="listitem" data-index="1" aria-expanded="false" aria-controls="trace-1">
+
+
+      <button
+        class="node"
+        role="listitem"
+        data-index="1"
+        aria-expanded="false"
+        aria-controls="trace-1"
+      >
         <span class="node__dot"></span>
         <span class="node__year mono">2015</span>
         <span class="node__org">Infosys Technologies</span>
       </button>
-      <button class="node" role="listitem" data-index="2" aria-expanded="false" aria-controls="trace-2">
+
+
+      <button
+        class="node"
+        role="listitem"
+        data-index="2"
+        aria-expanded="false"
+        aria-controls="trace-2"
+      >
         <span class="node__dot"></span>
         <span class="node__year mono">2019</span>
         <span class="node__org">Cognizant</span>
       </button>
-      <button class="node" role="listitem" data-index="3" aria-expanded="false" aria-controls="trace-3">
+
+
+      <button
+        class="node"
+        role="listitem"
+        data-index="3"
+        aria-expanded="false"
+        aria-controls="trace-3"
+      >
         <span class="node__dot"></span>
         <span class="node__year mono">2022</span>
         <span class="node__org">TCS</span>
       </button>
-      <button class="node node--current" role="listitem" data-index="4" aria-expanded="false" aria-controls="trace-4">
+
+
+      <button
+        class="node node--current"
+        role="listitem"
+        data-index="4"
+        aria-expanded="false"
+        aria-controls="trace-4"
+      >
         <span class="node__dot"></span>
         <span class="node__year mono">2023</span>
         <span class="node__org">Infosys Ltd</span>
       </button>
+
     </div>
+
 
     <!-- Trace panels -->
     <div class="traces" id="traces">
 
       <article class="trace" id="trace-0" data-index="0">
+
         <header class="trace__head">
           <div>
-            <p class="mono trace__span">JUL 2013 — AUG 2015</p>
-            <h3>Associate Developer · Aosta Software Technologies</h3>
+            <p class="mono trace__span">
+              JUL 2013 — AUG 2015
+            </p>
+
+            <h3>
+              Associate Developer · Aosta Software Technologies
+            </h3>
           </div>
-          <span class="tag">client: education</span>
+
+          <span class="tag">
+            client: education
+          </span>
         </header>
-        <p class="trace__project"><strong>Campus Management System</strong> — payments &amp; receipts, admissions, attendance, library and HR in one platform.</p>
+
+        <p class="trace__project">
+          <strong>Campus Management System</strong>
+          — payments &amp; receipts, admissions, attendance, library and HR
+          in one platform.
+        </p>
+
         <ul class="trace__points">
-          <li>Integrated Bootstrap with Spring and Apache Tiles for a consistent, navigable UI.</li>
-          <li>Built role-based CRUD and menu access across staff and student personas.</li>
-          <li>Secured the app with the HDIV security API; used Apache POI for bulk data handling.</li>
-          <li>Modelled seat-allocation logic for course admissions against university rules.</li>
-          <li>Shipped analytics dashboards with the Highcharts JS API.</li>
+          <li>
+            Integrated Bootstrap with Spring and Apache Tiles for a
+            consistent, navigable UI.
+          </li>
+
+          <li>
+            Built role-based CRUD and menu access across staff and
+            student personas.
+          </li>
+
+          <li>
+            Secured the app with the HDIV security API; used Apache POI
+            for bulk data handling.
+          </li>
+
+          <li>
+            Modelled seat-allocation logic for course admissions against
+            university rules.
+          </li>
+
+          <li>
+            Shipped analytics dashboards with the Highcharts JS API.
+          </li>
         </ul>
+
       </article>
+
 
       <article class="trace" id="trace-1" data-index="1">
+
         <header class="trace__head">
+
           <div>
-            <p class="mono trace__span">SEP 2015 — AUG 2019</p>
-            <h3>Technology Analyst · Infosys Technologies</h3>
+            <p class="mono trace__span">
+              SEP 2015 — AUG 2019
+            </p>
+
+            <h3>
+              Technology Analyst · Infosys Technologies
+            </h3>
           </div>
-          <span class="tag">client: insurance</span>
+
+          <span class="tag">
+            client: insurance
+          </span>
+
         </header>
-        <p class="trace__project"><strong>Global Sales &amp; Servicing Platform, Enterprise Integration Platform, MetLink Portal</strong> — the connective tissue between Salesforce and downstream policy systems.</p>
+
+        <p class="trace__project">
+          <strong>
+            Global Sales &amp; Servicing Platform, Enterprise Integration
+            Platform, MetLink Portal
+          </strong>
+          — the connective tissue between Salesforce and downstream
+          policy systems.
+        </p>
+
         <ul class="trace__points">
-          <li>Built a Spring Boot microservice platform sitting between Salesforce and downstream systems.</li>
-          <li>Transformed requests/responses across an enterprise integration layer for multiple endpoints.</li>
-          <li>Shipped a health-monitoring dashboard and a Splunk query generator on the Splunk Java SDK.</li>
-          <li>Ran daily batch workloads on Maestro, keeping downstream feeds on schedule.</li>
-          <li>Owned resourcing for an 8-person team delivering 24×7×365 coverage.</li>
+
+          <li>
+            Built a Spring Boot microservice platform sitting between
+            Salesforce and downstream systems.
+          </li>
+
+          <li>
+            Transformed requests/responses across an enterprise
+            integration layer for multiple endpoints.
+          </li>
+
+          <li>
+            Shipped a health-monitoring dashboard and a Splunk query
+            generator on the Splunk Java SDK.
+          </li>
+
+          <li>
+            Ran daily batch workloads on Maestro, keeping downstream
+            feeds on schedule.
+          </li>
+
+          <li>
+            Owned resourcing for an 8-person team delivering
+            24×7×365 coverage.
+          </li>
+
         </ul>
+
       </article>
+
 
       <article class="trace" id="trace-2" data-index="2">
+
         <header class="trace__head">
+
           <div>
-            <p class="mono trace__span">SEP 2019 — JAN 2022</p>
-            <h3>Associate · Cognizant Technology Solutions</h3>
+            <p class="mono trace__span">
+              SEP 2019 — JAN 2022
+            </p>
+
+            <h3>
+              Associate · Cognizant Technology Solutions
+            </h3>
+
           </div>
-          <span class="tag">client: stock market</span>
+
+          <span class="tag">
+            client: stock market
+          </span>
+
         </header>
-        <p class="trace__project"><strong>Exchange Manager</strong> — automated data exchange between the Admin System and the Employee Stock Plan Portal.</p>
+
+        <p class="trace__project">
+          <strong>Exchange Manager</strong>
+          — automated data exchange between the Admin System and the
+          Employee Stock Plan Portal.
+        </p>
+
         <ul class="trace__points">
-          <li>Designed manual and automated paths for file creation, transfer and loading.</li>
-          <li>Owned entity relationships (one-to-many / many-to-one) for performance-critical loads.</li>
-          <li>Unit-tested new features with JUnit and paired closely with QA across environments.</li>
-          <li>Led production rollout support and a 6-person delivery team.</li>
+
+          <li>
+            Designed manual and automated paths for file creation,
+            transfer and loading.
+          </li>
+
+          <li>
+            Owned entity relationships (one-to-many / many-to-one)
+            for performance-critical loads.
+          </li>
+
+          <li>
+            Unit-tested new features with JUnit and paired closely
+            with QA across environments.
+          </li>
+
+          <li>
+            Led production rollout support and a 6-person delivery team.
+          </li>
+
         </ul>
+
       </article>
+
 
       <article class="trace" id="trace-3" data-index="3">
+
         <header class="trace__head">
+
           <div>
-            <p class="mono trace__span">JAN 2022 — FEB 2023</p>
-            <h3>Associate Consultant · Tata Consultancy Services</h3>
+            <p class="mono trace__span">
+              JAN 2022 — FEB 2023
+            </p>
+
+            <h3>
+              Associate Consultant · Tata Consultancy Services
+            </h3>
           </div>
-          <span class="tag">client: telecommunications</span>
+
+          <span class="tag">
+            client: telecommunications
+          </span>
+
         </header>
-        <p class="trace__project"><strong>Network Design Administration</strong> — replaced manual network-design documentation with an automated workflow.</p>
+
+        <p class="trace__project">
+          <strong>Network Design Administration</strong>
+          — replaced manual network-design documentation with an
+          automated workflow.
+        </p>
+
         <ul class="trace__points">
-          <li>Led an 11-person team through Agile delivery end to end.</li>
-          <li>Owned production and non-production issue resolution to lift operational reliability.</li>
-          <li>Ran code reviews as the standing quality gate for the team.</li>
+
+          <li>
+            Led an 11-person team through Agile delivery end to end.
+          </li>
+
+          <li>
+            Owned production and non-production issue resolution to
+            lift operational reliability.
+          </li>
+
+          <li>
+            Ran code reviews as the standing quality gate for the team.
+          </li>
+
         </ul>
+
       </article>
 
+
       <article class="trace" id="trace-4" data-index="4">
+
         <header class="trace__head">
+
           <div>
-            <p class="mono trace__span">FEB 2023 — PRESENT</p>
-            <h3>Senior Consultant · Infosys Ltd</h3>
+            <p class="mono trace__span">
+              FEB 2023 — PRESENT
+            </p>
+
+            <h3>
+              Senior Consultant · Infosys Ltd
+            </h3>
           </div>
-          <span class="tag tag--live">client: banking · current</span>
+
+          <span class="tag tag--live">
+            client: banking · current
+          </span>
+
         </header>
-        <p class="trace__project"><strong>Manage My Accounts</strong> — the customer-information module of a digital banking platform: contact updates, KYC refresh, statement generation.</p>
+
+        <p class="trace__project">
+          <strong>Manage My Accounts</strong>
+          — the customer-information module of a digital banking platform:
+          contact updates, KYC refresh, statement generation.
+        </p>
+
         <ul class="trace__points">
-          <li>Build and maintain the RESTful APIs the module runs on.</li>
-          <li>Diagnose production and non-production issues to keep downtime near zero.</li>
-          <li>Run CI/CD pipeline support from build through release.</li>
-          <li>Review code for quality and standards; mentor junior developers.</li>
-          <li>Watch application logs and fix critical issues as they surface.</li>
+
+          <li>
+            Build and maintain the RESTful APIs the module runs on.
+          </li>
+
+          <li>
+            Diagnose production and non-production issues to keep
+            downtime near zero.
+          </li>
+
+          <li>
+            Run CI/CD pipeline support from build through release.
+          </li>
+
+          <li>
+            Review code for quality and standards; mentor junior developers.
+          </li>
+
+          <li>
+            Watch application logs and fix critical issues as they surface.
+          </li>
+
         </ul>
+
       </article>
 
     </div>
+
   </section>
+
 
   <!-- ============ STACK ============ -->
   <section class="section" id="stack">
+
     <div class="section__head">
+
       <p class="eyebrow mono">// 02 — stack</p>
+
       <h2>What's running under the hood</h2>
-      <p class="section__sub">Grouped the way a systems diagram would group it — by what each layer is responsible for.</p>
+
+      <p class="section__sub">
+        Grouped the way a systems diagram would group it — by what each
+        layer is responsible for.
+      </p>
+
     </div>
+
 
     <div class="stackgrid">
 
       <div class="stackcard">
+
         <p class="stackcard__label mono">languages</p>
+
         <ul class="chiplist">
-          <li>Java</li><li>JavaScript</li><li>HTML5</li><li>CSS3</li>
+          <li>Java</li>
+          <li>JavaScript</li>
+          <li>HTML5</li>
+          <li>CSS3</li>
         </ul>
+
       </div>
 
+
       <div class="stackcard">
+
         <p class="stackcard__label mono">frameworks</p>
+
         <ul class="chiplist">
-          <li>Spring</li><li>Spring Boot</li><li>Spring MVC</li><li>Hibernate</li><li>REST</li><li>Microservices</li><li>jQuery</li><li>Bootstrap</li><li>HDIV Security</li>
+          <li>Spring</li>
+          <li>Spring Boot</li>
+          <li>Spring MVC</li>
+          <li>Hibernate</li>
+          <li>REST</li>
+          <li>Microservices</li>
+          <li>jQuery</li>
+          <li>Bootstrap</li>
+          <li>HDIV Security</li>
         </ul>
+
       </div>
 
+
       <div class="stackcard">
+
         <p class="stackcard__label mono">data</p>
+
         <ul class="chiplist">
-          <li>Oracle</li><li>MySQL</li><li>MongoDB</li><li>H2</li>
+          <li>Oracle</li>
+          <li>MySQL</li>
+          <li>MongoDB</li>
+          <li>H2</li>
         </ul>
+
       </div>
 
+
       <div class="stackcard">
+
         <p class="stackcard__label mono">devops &amp; cloud</p>
+
         <ul class="chiplist">
-          <li>Git</li><li>Maven</li><li>Docker</li><li>OCP</li><li>CloudFoundry</li><li>AppFog</li><li>CloudWays</li>
+          <li>Git</li>
+          <li>Maven</li>
+          <li>Docker</li>
+          <li>OCP</li>
+          <li>CloudFoundry</li>
+          <li>AppFog</li>
+          <li>CloudWays</li>
         </ul>
+
       </div>
+
 
       <div class="stackcard stackcard--accent">
+
         <p class="stackcard__label mono">observability</p>
+
         <ul class="chiplist">
-          <li>Splunk</li><li>Kibana</li><li>Grafana</li><li>AppDynamics</li><li>AppWatch</li>
+          <li>Splunk</li>
+          <li>Kibana</li>
+          <li>Grafana</li>
+          <li>AppDynamics</li>
+          <li>AppWatch</li>
         </ul>
+
       </div>
 
+
       <div class="stackcard">
+
         <p class="stackcard__label mono">delivery &amp; tracking</p>
+
         <ul class="chiplist">
-          <li>JIRA</li><li>Target Process</li><li>ServiceNow</li><li>Remedy</li>
+          <li>JIRA</li>
+          <li>Target Process</li>
+          <li>ServiceNow</li>
+          <li>Remedy</li>
         </ul>
+
       </div>
 
     </div>
+
   </section>
+
 
   <!-- ============ PROJECTS ============ -->
   <section class="section" id="projects">
+
     <div class="section__head">
+
       <p class="eyebrow mono">// 03 — featured builds</p>
+
       <h2>Selected projects</h2>
+
     </div>
 
+
     <div class="projgrid">
+
       <article class="projcard">
-        <p class="mono projcard__tag">banking · current</p>
+        <p class="mono projcard__tag">
+          banking · current
+        </p>
+
         <h3>Manage My Accounts</h3>
-        <p>Customer-information module of a digital banking platform — contact updates, KYC refresh, statement generation, built on RESTful services with CI/CD-backed releases.</p>
+
+        <p>
+          Customer-information module of a digital banking platform —
+          contact updates, KYC refresh, statement generation, built on
+          RESTful services with CI/CD-backed releases.
+        </p>
       </article>
+
+
       <article class="projcard">
-        <p class="mono projcard__tag">telecom</p>
+
+        <p class="mono projcard__tag">
+          telecom
+        </p>
+
         <h3>Network Design Administration</h3>
-        <p>Replaced a manual, document-heavy network design process with an automated workflow, led by an 11-person delivery team.</p>
+
+        <p>
+          Replaced a manual, document-heavy network design process with
+          an automated workflow, led by an 11-person delivery team.
+        </p>
+
       </article>
+
+
       <article class="projcard">
-        <p class="mono projcard__tag">capital markets</p>
+
+        <p class="mono projcard__tag">
+          capital markets
+        </p>
+
         <h3>Exchange Manager</h3>
-        <p>Manual and automated data exchange between an Admin System and an Employee Stock Plan Portal, with entity-relationship tuning for performance.</p>
+
+        <p>
+          Manual and automated data exchange between an Admin System
+          and an Employee Stock Plan Portal, with entity-relationship
+          tuning for performance.
+        </p>
+
       </article>
+
+
       <article class="projcard">
-        <p class="mono projcard__tag">insurance</p>
+
+        <p class="mono projcard__tag">
+          insurance
+        </p>
+
         <h3>Global Sales &amp; Servicing Platform</h3>
-        <p>Loosely-coupled Spring Boot microservices sitting between Salesforce and downstream policy systems.</p>
+
+        <p>
+          Loosely-coupled Spring Boot microservices sitting between
+          Salesforce and downstream policy systems.
+        </p>
+
       </article>
+
+
       <article class="projcard">
-        <p class="mono projcard__tag">insurance</p>
+
+        <p class="mono projcard__tag">
+          insurance
+        </p>
+
         <h3>Enterprise Integration Platform</h3>
-        <p>Transforms requests and responses between upstream and downstream systems into formats each endpoint can consume.</p>
+
+        <p>
+          Transforms requests and responses between upstream and
+          downstream systems into formats each endpoint can consume.
+        </p>
+
       </article>
+
+
       <article class="projcard">
-        <p class="mono projcard__tag">education</p>
+
+        <p class="mono projcard__tag">
+          education
+        </p>
+
         <h3>Campus Management System</h3>
-        <p>End-to-end operations platform for a university — admissions, attendance, library and HR — with role-based access throughout.</p>
+
+        <p>
+          End-to-end operations platform for a university — admissions,
+          attendance, library and HR — with role-based access throughout.
+        </p>
+
       </article>
+
     </div>
+
   </section>
+
 
   <!-- ============ CERTIFICATIONS ============ -->
   <section class="section" id="certs">
+
     <div class="section__head">
+
       <p class="eyebrow mono">// 04 — certifications &amp; education</p>
+
       <h2>Credentials</h2>
+
     </div>
+
 
     <div class="certgrid">
+
       <ul class="certlist">
+
         <li>
-          <span class="certlist__name">Oracle Cloud Infrastructure Foundations 2021 Certified Associate</span>
-          <span class="certlist__issuer mono">Oracle University</span>
+          <span class="certlist__name">
+            Oracle Cloud Infrastructure Foundations 2021 Certified Associate
+          </span>
+
+          <span class="certlist__issuer mono">
+            Oracle University
+          </span>
         </li>
+
+
         <li>
-          <span class="certlist__name">M220J — MongoDB for Java Developers</span>
-          <span class="certlist__issuer mono">MongoDB University</span>
+          <span class="certlist__name">
+            M220J — MongoDB for Java Developers
+          </span>
+
+          <span class="certlist__issuer mono">
+            MongoDB University
+          </span>
         </li>
+
+
         <li>
-          <span class="certlist__name">M001 — MongoDB Basics</span>
-          <span class="certlist__issuer mono">MongoDB University</span>
+          <span class="certlist__name">
+            M001 — MongoDB Basics
+          </span>
+
+          <span class="certlist__issuer mono">
+            MongoDB University
+          </span>
         </li>
+
+
         <li>
-          <span class="certlist__name">Master Microservices with Spring Boot and Spring Cloud</span>
-          <span class="certlist__issuer mono">Udemy</span>
+          <span class="certlist__name">
+            Master Microservices with Spring Boot and Spring Cloud
+          </span>
+
+          <span class="certlist__issuer mono">
+            Udemy
+          </span>
         </li>
+
+
         <li>
-          <span class="certlist__name">Modern Java — Learn Java 8 Features by Coding It</span>
-          <span class="certlist__issuer mono">Udemy</span>
+          <span class="certlist__name">
+            Modern Java — Learn Java 8 Features by Coding It
+          </span>
+
+          <span class="certlist__issuer mono">
+            Udemy
+          </span>
         </li>
+
       </ul>
 
+
       <div class="eduplate">
-        <p class="stackcard__label mono">education</p>
+
+        <p class="stackcard__label mono">
+          education
+        </p>
+
+
         <div class="eduplate__item">
-          <p class="eduplate__degree">B.Tech, Information Technology</p>
-          <p class="mono eduplate__meta">Dr. N.G.P. Institute of Technology (Anna University) · 2013 · CGPA 7.8/10</p>
+
+          <p class="eduplate__degree">
+            B.Tech, Information Technology
+          </p>
+
+          <p class="mono eduplate__meta">
+            Dr. N.G.P. Institute of Technology (Anna University)
+            · 2013 · CGPA 7.8/10
+          </p>
+
         </div>
+
+
         <div class="eduplate__item">
-          <p class="eduplate__degree">Diploma, Computer Technology</p>
-          <p class="mono eduplate__meta">Christ the King Polytechnic College · 2008 · 74%</p>
+
+          <p class="eduplate__degree">
+            Diploma, Computer Technology
+          </p>
+
+          <p class="mono eduplate__meta">
+            Christ the King Polytechnic College · 2008 · 74%
+          </p>
+
         </div>
+
       </div>
+
     </div>
+
   </section>
+
 
   <!-- ============ CONTACT ============ -->
   <section class="section section--contact" id="contact">
+
     <div class="contactpanel">
+
       <div class="contactpanel__head">
         <span class="dot dot--live" aria-hidden="true"></span>
         <p class="mono">CONNECTION REQUEST</p>
       </div>
-      <h2>Let's talk about your next integration.</h2>
-      <p class="section__sub">Open to senior Java / Spring Boot roles, systems-integration work, and production-reliability engagements.</p>
+
+
+      <h2>
+        Let's talk about your next integration.
+      </h2>
+
+
+      <p class="section__sub">
+        Open to senior Java / Spring Boot roles, systems-integration work,
+        and production-reliability engagements.
+      </p>
+
 
       <div class="contactgrid mono">
-        <a class="contactlink" href="mailto:prasannaa.sundaram@hotmail.com">
-          <span class="contactlink__label">email</span>
-          <span class="contactlink__value">prasannaa.sundaram@hotmail.com</span>
+
+        <a
+          class="contactlink"
+          href="mailto:prasannaa.sundaram@hotmail.com"
+        >
+          <span class="contactlink__label">
+            email
+          </span>
+
+          <span class="contactlink__value">
+            prasannaa.sundaram@hotmail.com
+          </span>
         </a>
-        <a class="contactlink" href="tel:+919108772036">
-          <span class="contactlink__label">phone</span>
-          <span class="contactlink__value">+91 910 877 2036</span>
+
+
+        <a
+          class="contactlink"
+          href="tel:+919108772036"
+        >
+          <span class="contactlink__label">
+            phone
+          </span>
+
+          <span class="contactlink__value">
+            +91 910 877 2036
+          </span>
         </a>
-        <a class="contactlink" href="https://github.com/prsundaram" target="_blank" rel="noopener">
-          <span class="contactlink__label">github</span>
-          <span class="contactlink__value">github.com/prsundaram</span>
+
+
+        <a
+          class="contactlink"
+          href="https://github.com/prsundaram"
+          target="_blank"
+          rel="noopener"
+        >
+          <span class="contactlink__label">
+            github
+          </span>
+
+          <span class="contactlink__value">
+            github.com/prsundaram
+          </span>
         </a>
-        <a class="contactlink" href="https://linkedin.com/in/prasannasundaram" target="_blank" rel="noopener">
-          <span class="contactlink__label">linkedin</span>
-          <span class="contactlink__value">in/prasannasundaram</span>
+
+
+        <a
+          class="contactlink"
+          href="https://linkedin.com/in/prasannasundaram"
+          target="_blank"
+          rel="noopener"
+        >
+          <span class="contactlink__label">
+            linkedin
+          </span>
+
+          <span class="contactlink__value">
+            in/prasannasundaram
+          </span>
         </a>
+
       </div>
+
     </div>
+
   </section>
 
 </main>
 
+
 <footer class="footer mono">
-  <span>© <span id="year"></span> Prasanna Sundaram</span>
-  <span>Chennai, IN</span>
-  <span>built with HTML · CSS · JS</span>
+
+  <span>
+    © <span id="year"></span> Prasanna Sundaram
+  </span>
+
+  <span>
+    Chennai, IN
+  </span>
+
+  <span>
+    built with HTML · CSS · JS
+  </span>
+
 </footer>
 
+
 <script src="script.js"></script>
+
 </body>
 </html>
